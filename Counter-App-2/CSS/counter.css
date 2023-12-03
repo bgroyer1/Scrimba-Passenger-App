@@ -1,17 +1,36 @@
 body {
     text-align: center;
-    margin-top: 200px;
+    background-image: url("/IMG/939710.jpg");
+    background-size: cover;
+    object-fit: cover;
 }
 
 button {
-    background-color: maroon;
+    background-color: whitesmoke;
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    color: maroon;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
 }
 
+#counter-div {
+    border: 10px solid black;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 250px auto 0 auto;
+    background: linear-gradient( #8b0311 , #DF0D1E);
+    border: 1px solid black;
+    color: whitesmoke;
+}
+
+button {
+    line-height: 20px;
+    font-size: 20px;
+}

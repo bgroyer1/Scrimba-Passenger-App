@@ -6,7 +6,7 @@ let count = 0;
 
 incrementBtn.addEventListener('click', () => {
     count += 1;
-    countEl.textContent = `People Entered: ${count}`
+    countEl.textContent = `${count}`
 })
 
 saveBtn.addEventListener('click', () => {
