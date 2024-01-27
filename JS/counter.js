@@ -10,7 +10,7 @@ incrementBtn.addEventListener('click', () => {
     countEl.textContent = `${count}`
 })
 
-saveBtn.addEventListener('click', () => {
+saveBtn.addEventListener('click', () => {+
     previousCount += count;
     saveEl.textContent += ` ${previousCount} - `;
     count = 0;
